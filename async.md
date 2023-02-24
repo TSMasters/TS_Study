@@ -101,6 +101,19 @@ let value = await Promise 객체 혹은 값
 ```
 
 + async : 함수는 값을 반환. 이때 반환값은 Promise 형태로 변환되므로 then 메소드를 통해서 반환되는 값을 얻어야 한다.
+
+```ts
+// 함수 표현식
+const asyncFunction1 = async () => {
+
+}
+
+// // 함수 선언식
+async function asyncFunction2() {
+
+}
+```
+
 ```ts
 const hi = async ()=>{
     return [1, 2, 3];
@@ -120,22 +133,6 @@ asyncReturn().then(value =>
 ```ts
 value0: [ 1, 2, 3 ]
 value1:  [ 1, 2, 3 ]
-```
-
-
-
-
-
-```ts
-// 함수 표현식
-const asyncFunction1 = async () => {
-
-}
-
-// // 함수 선언식
-async function asyncFunction2() {
-
-}
 ```
 
 ### 4.1. 참고!
