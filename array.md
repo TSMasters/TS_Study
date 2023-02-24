@@ -75,7 +75,7 @@ console.log(
 + map: 배열 데이터 가공하기
 
 ```ts
-const multiply = (result, val) => result * val  //07행에서 사용
+const multiply = (result, val) => result * val 
 
 let numbers1: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 let result1 = numbers1
